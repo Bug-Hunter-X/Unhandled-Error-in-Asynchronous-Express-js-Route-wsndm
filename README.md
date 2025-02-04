@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Express.js applications: unhandled errors within asynchronous route handlers.  The `bug.js` file shows an example of an asynchronous route that can throw an error.  The `bugSolution.js` file provides a solution using error handling middleware to gracefully handle these errors and prevent crashes.
